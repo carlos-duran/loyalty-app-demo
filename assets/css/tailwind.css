@@ -1,0 +1,24 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+/* purgecss start ignore */
+.layout-enter-active,
+.layout-leave-to {
+  transition: opacity 0.5s;
+}
+.layout-enter,
+.layout-leave-to {
+  opacity: 0;
+}
+.page-enter-active,
+.page-leave-to {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+/* purgecss end ignore */

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>B55A101A-8DDC-4BB9-AB53-EAC43AEB3B85</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Home-Dashboard-(Desktop)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-A" transform="translate(-912.000000, -103.000000)" fill="#575757" fill-rule="nonzero">
+            <g id="Top-Section" transform="translate(40.000000, 95.000000)">
+                <g id="Main-Navigation-Links" transform="translate(118.000000, 8.000000)">
+                    <g id="Pay-for-Gas" transform="translate(754.000000, 0.000000)">
+                        <path d="M8.5,16 C9.328125,16 10,15.328125 10,14.5 L10,1.5 C10,0.671875 9.328125,0 8.5,0 L1.5,0 C0.671875,0 0,0.671875 0,1.5 L0,14.5 C0,15.328125 0.671875,16 1.5,16 L8.5,16 Z M8.125,12 L1.875,12 C1.66876221,12 1.5,11.8312378 1.5,11.625 L1.5,1.875 C1.5,1.66876221 1.66876221,1.5 1.875,1.5 L8.125,1.5 C8.33123779,1.5 8.5,1.66876221 8.5,1.875 L8.5,11.625 C8.5,11.8312378 8.33123779,12 8.125,12 Z M5,15 C4.4468689,15 4,14.5531311 4,14 C4,13.4468689 4.4468689,13 5,13 C5.5531311,13 6,13.4468689 6,14 C6,14.5531311 5.5531311,15 5,15 Z" id="pay_icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>B70EC3B2-D77C-4AA2-BC73-FF45D71C202F</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Home-Dashboard-(Desktop)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-A" transform="translate(-1388.000000, -108.000000)" fill="#202020">
+            <g id="Top-Section" transform="translate(40.000000, 95.000000)">
+                <g id="User-Options" transform="translate(1310.000000, 0.000000)">
+                    <path d="M38.9726562,13.5 L49.0234375,13.5 C49.71875,13.5 50.0664063,14.3398437 49.5742188,14.8320312 L44.5507813,19.859375 C44.2460938,20.1640625 43.75,20.1640625 43.4453125,19.859375 L38.421875,14.8320312 C37.9296875,14.3398437 38.2773437,13.5 38.9726562,13.5 Z" id="caret-down"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

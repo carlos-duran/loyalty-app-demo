@@ -1,55 +1,38 @@
 <template>
-  <div>
-    <nuxt />
+  <div class="layout">
+    <TheTopbar class="md:mt-3 md:mb-1" />
+    <div class="content">
+      <div class="w-full max-w-6xl m-auto">
+        <transition name="layout" mode="out-in">
+          <nuxt />
+        </transition>
+      </div>
+      <TheHelp />
+    </div>
   </div>
 </template>
 
-<style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+<script>
+import TheTopbar from '../components/TheTopbar.vue'
+import TheHelp from '../components/TheHelp.vue'
+
+export default {
+  components: {
+    TheTopbar,
+    TheHelp
+  }
+}
+</script>
+
+<style lang="postcss" scoped>
+.layout {
+  @apply font-roboto text-base text-normal leading-normal min-h-screen flex flex-col px-4 pb-4;
+  background: linear-gradient(135deg, #faf7f7 0%, #cbcbcb 100%);
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.content {
+  @apply flex-1 relative rounded-lg p-6;
+  background: linear-gradient(135deg, #ffffff 0%, #e8e8e8 100%);
+  box-shadow: inset 0 0 4px 0 rgba(255, 255, 255, 0.4);
 }
 </style>
