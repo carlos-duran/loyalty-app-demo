@@ -5,6 +5,15 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
+  purge: {
+    enabled: true,
+    content: [
+      './layouts/**/*.vue',
+      './pages/**/*.vue',
+      './components/**/*.vue',
+      './plugins/**/*.vue'
+    ]
+  },
   theme: {
     extend: {
       colors: {
